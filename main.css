@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .border {
+        @apply border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300
+    }
+   
+}

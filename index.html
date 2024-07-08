@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en" class="dark" id="htmlTag">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="bg-white dark:bg-gray-900">
+  <!--navbar section-->
+  <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between flex justify-between">
+    <div class="flex justify-between items-center ">
+      <span class="text-2xl font-[Poppins] cursor-pointer">
+        <img class="h-10 inline md:w-40 w-52"
+          src="assets/c4u full logo_2022 1 (1).png">
+      </span>
+    </div>
+    
+<div>
+    <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 md:text-center ">
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl  duration-500 hover:text-gray-400">Home</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl hover:text-gray-400 duration-500">About Us</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl hover:text-gray-400 text-[#F44335] duration-500">Upskill</a>
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a href="#" class="text-xl  hover:text-gray-400 duration-500">Contact us </a>
+      </li>
+      
+    </ul>
+
+  </div>
+
+  <div class="md-flex flex ml-24 md:justify-between">
+      
+    <button class="bg-[#F44335] mr-5
+    text-white duration-500 md:px-7 md:py-2   hover:bg-[#f45e35] rounded 
+  transition-all  cursor-pointer hover:scale-x-110 text-sm text-nowrap px-3">
+    Register Interest
+   </button>
+
+   <button id="switch"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hover:scale-110 transition-all cursor-pointer size-6 dark:stroke-white duration-300 " >
+    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+  </svg>
+  
+  </button>
+  <span class="text-3xl cursor-pointer mx-2 md:hidden block mt-1">
+    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+  </span> 
+
+  </div>
+
+
+    </div>
+  
+  </nav>
+
+
+  <script>
+    function Menu(e){
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+  </script>
+
+<!--navbar section end -->
+
+
+<!--First part section start-->
+
+<div class="grid grid-cols-12">
+
+  <div class=" container grid  ml-20 mt-11 md:col-span-6 col-span-12 h-96">
+  
+      <h4 class="font-semibold text-2xl">Discover <span class="text-[#F44335] font-extrabold"> - </span> Interact <span class="text-[#F44335] font-extrabold"> -  </span> Engage </h4>
+
+      <h1  class="md:text-6xl text-6xl font-semibold md:mt-6 mt-6 leading-tight md:leading-tight tracking-wide md:tracking-wide">Google <br><span class="text-[#F44335] underline decoration-[#F44335] underline-offset-[14px] decoration-2 ">
+        IT Support </span><br> Certificate</h1>
+
+      <p class="md:text-nowrap mt-16 md:mt-16  md:text-lg md:mr-3 text-sm" >This is your path to a career in IT. In this program, you’ll learn in- <br>demand skills with no degree or experience required. </p>
+
+      <div class="md:flex-row md:gap-16 md:mt-14 md:mr-4 flex gap-6 mt-12 mr-4 text-sm">
+        <span class="md:grid hover:transition-all hover:duration-300 hover:scale-105">
+          <h5 class="text-[#00FF84] text-2xl text-center font-semibold">438</h5>
+          <p class="text-1xl">Videos </p>
+        </span>
+        <span class="md:grid hover:transition-all hover:duration-300 hover:scale-105">
+          <h5 class="text-[#00FF84] text-2xl text-center font-semibold">151</h5>
+          <p>Readings </p>
+        </span>
+        <span class="md:grid hover:transition-all hover:duration-300 hover:scale-105">
+          <h5 class="text-[#00FF84] text-2xl text-center font-semibold">108 </h5>
+          <p>Quizzes </p>
+        </span>
+        <span class="md:grid hover:transition-all hover:duration-300 hover:scale-105 " >
+          <h5 class="text-[#00FF84] text-2xl text-center font-semibold">24</h5>
+          <p> Exercises</p>
+        </span>
+        <span class="md:grid hover:transition-all hover:duration-300 hover:scale-105">
+          <h5 class="text-[#00FF84] text-2xl text-center font-semibold">4</h5>
+          <p>Assigments </p>
+        </span>
+      </div>
+
+      <div class="md:flex flex md:gap-8 gap-8 mt-20  mr-4 md:ml-10 md:mt-20 ">
+        <button class="bg-[#F44335] text-white py-3 px-6 rounded-md hover:transition-all cursor-pointer duration-500 hover:bg-green-400 hover:scale-110">Sign up</button>
+        <button class="border border-blue-100 py-2 px-4 hover:transition-all cursor-pointer duration-500 hover:bg-slate-300 hover:scale-110">Learn more</button>
+      </div>
+ 
+    
+  </div>
+  <div class=" md:w-auto md:mt-15 mt-20 ml-12 md:col-span-6 col-span-12" >
+    <img class="w-96 md:w-full md:mt-4 mt-48" src="https://cdn.discordapp.com/attachments/1164182878435954749/1258469658433028168/Banner-image.png?ex=668acbb3&is=66897a33&hm=647d01ff061bf90ca00592ff35c1745b864b4aa6e4c46eaf612bdf9cebdc5737&" alt="">
+
+  </div>
+</div>
+
+  <div class=" md:flex grid  md:mt-20 mt-20  md:items-center md:px-10 md:ml-20 md:gap-28 ml-20 mr-20">
+   <div class="md:border-r-2 md:p-1 border-b-2  pb-10  hover:transition-all hover:scale-105 duration-300"><h6 class="text-pretty  text-base">Pave your path to career success by <br> gaining  a  professional  Google  <br>certificate with the support of C4U</h6></div> 
+<div class="md:border-r-2 md:p-1 border-b-2 pb-10  hover:transition-all hover:scale-105 duration-300"><img class=" mr-20" src="assets/Google.png" alt=""></div>
+  <div class=" md:border-r-2 md:p-1 border-b-2  pb-10 hover:transition-all hover:scale-105 duration-300"><img class="mr-24" src="assets/Work & Pensions.png" alt=""></div>  
+    <div class="hover:transition-all hover:scale-105 duration-300 mt-10"><img class="mr-10" src="assets/c4u full logo_2022 1 (1).png" alt=""></div>
+
+  </div>
+<!--first part end-->
+
+<!--second part start-->
+
+<div class="grid grid-cols-12 md:mt-20 ">
+  <div  class="  grid  md:ml-20 mb-11 md:h-3/4   md:col-span-6 col-span-12  md:w-11/12 w-4/5 shadow-md shadow-slate-400  md:mt-10 mt-16 rounded-2xl ">
+ 
+         <h1 class="md:mt-10 mt-10 text-3xl font-semibold ml-14 ">What you will learn</h1>
+<div class="md:grid grid gap-10  md:mb-16 md:ml-11 mt-12 ">
+
+ <div class="flex md:flex">
+  <img class="w-9 md:w-7 md:h-16 md:mt-3" src="assets/Checkmark.png" alt="">
+  <h1 class="mt-6 ml-3">Gain skills required to succeed in an entry-level IT job</h1>
+ </div> 
+
+<div class="flex md:flex" >
+  <img class=" w-6 h-14 md:w-7 md:h-16 md:mt-3" src="assets/Checkmark.png" alt="">
+
+  
+  <h1 class="mt-4 ml-3" > Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</h1>
+</div>
+   <div class="flex md:flex" >
+    <img class="w-7 md:w-7 md:h-16 md:mt-3" src="assets/Checkmark.png" alt="">
+    <h1 class="mt-4 ml-3" >Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</h1>
+   </div>
+  <div  class="flex md:flex">
+    <img class="md:w-7 md:h-16 md:mt-3 " src="assets/Checkmark.png" alt="">
+    <h1  class="mt-4 ml-4">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</h1>
+  </div>
+    
+ 
+  
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+    
+  <div class="md:w-auto md:mt-15  ml-12 md:col-span-6 col-span-12 mb-40 shadow-md  shadow-slate-400 mr-10  pb-14 rounded-2xl mt-10">
+<img src="assets/IT_social 1.png" alt="">
+<Skills class="font-semibold text-xl ml-16 mt-10 ">Skills you will gain </h4>
+<div class="space-x-2 space-y-4 ml-10 mt-10 border-t-2 border-t-[#F9CCC7]">
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300 ml-2">Debugging</button>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300">Customer Service</button>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300">Customer Support</button><br>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300" >Domain Name System (DNS)</buttonclass=>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300">Network Model</button>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300">Linux</button>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300">Encryption Algorithms and Techniques</button>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300">Network Protocols</button><br>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300">Ipv4</button>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300">Troubleshooting</button>
+  <button class="border  border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300" >Binary Code</button>
+  <button class="border border-[#F44335] px-3 py-1  rounded-full hover:transition-all hover:bg-[#F44335] hover:scale-110 hover:duration-300">Cloud Computing</button>
+</div>
+  </div>
+</div>
+  
+  <!--second part end-->
+
+
+
+
+
+  <!--third part start-->
+
+<div class=" grid grid-cols-12 md:mt-20 ">
+  <div  class=" grid  md:ml-20 mb-11 md:h-3/4   md:col-span-6 col-span-12  md:w-11/12 w-4/5 shadow-md shadow-slate-400  md:mt-10 mt-60 rounded-2xl hover:transition-all hover:scale-110 hover:duration-300  ">
+ 
+         <h1 class="md:mt-10 mt-10 text-3xl font-semibold ml-14 ">Jobs Assocaited with Certificate </h1>
+<div class="md:grid grid gap-10  md:mb-16 md:ml-11 mt-11  ">
+
+
+
+ <div class="flex md:flex">
+  <div class="md:flex"><img class="w-5 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+    <h1 class="mt-3 ml-3 font-bold">Database administrator</h1>
+  </div>
+
+<div class="flex ml-20">
+  <img class="w-9 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+  <h1 class="mt-3 ml-3 font-bold">Help desk technician</h1></div>
+ </div> 
+
+
+ <div class="flex md:flex">
+  <div class="md:flex"><img class="w-9 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+    <h1 class="mt-3 ml-3 font-bold">Tech support specialist</h1>
+  </div>
+
+<div class="flex ml-20">
+  <img class="w-9 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+  <h1 class="mt-3 ml-3 font-bold">IT support spcialist</h1></div>
+ </div> 
+
+ <div class="flex md:flex">
+  <div class="md:flex"><img class="w-9 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+    <h1 class="mt-3 ml-3 font-bold">IT specialist</h1>
+  </div>
+
+<div class="flex ml-40">
+  <img class="w-9 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+  <h1 class="mt-3 ml-3 font-bold">IT technician</h1></div>
+ </div> 
+
+ <div class="flex md:flex">
+  <div class="md:flex"><img class="w-9 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+    <h1 class="mt-3 ml-3 font-bold">Systems analyst</h1>
+  </div>
+
+<div class="flex ml-32">
+  <img class="w-9 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+  <h1 class="mt-3 ml-3 font-bold">Computer user specialist</h1></div>
+ </div> 
+
+ <div class="flex md:flex ">
+  <div class="md:flex"><img class="w-9 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+    <h1 class="mt-3 ml-3 font-bold">Network engineer</h1>
+  </div>
+
+<div class="flex ml-28">
+  <img class="w-9 md:w-7 md:h-7 md:mt-3" src="assets/Checkmark (2).png" alt="">
+  <h1 class="mt-3 ml-3 font-bold">IT assitant </h1></div>
+ </div> 
+ 
+
+</div>
+  </div>
+    
+  <div class="md:mt-15  ml-12 md:col-span-6 col-span-12 mb-40  mr-10  pb-16 rounded-2xl mt-10 ">
+<img class="grid  md:ml-20   md:col-span-6 col-span-12  mb-20  w-4/5 hover:scale-110 hover:duration-300 " src="assets/IT Support 1.png" alt="">
+
+
+  </div>
+</div>
+  
+  <!--third part end-->
+
+
+
+  <!--forth part start-->
+
+  <div class=" grid grid-cols-12 md:mt-20 ">
+    <div class="md:col-span-8 col-span-12 ml-20 mt-28 ">
+      <h1 class="text-5xl font-semibold tracking-wider line-clamp-4">There are 5 Courses in this Professional Certificate</h1>
+      <div class="mt-28 space-x-7 ">
+        <button class="border-black border rounded-2xl px-8 py-1 bg-[#00FF84] hover:transition-all hover:scale-105 hover:duration-300 hover:bg-lime-300">Course  1 </button>
+        <button class="border-black border rounded-2xl px-8 py-1 hover:transition-all hover:scale-105 hover:duration-300 hover:bg-green-600" >Course  2 </button>
+        <button  class="border-black border rounded-2xl px-8 py-1 hover:transition-all hover:scale-105 hover:duration-300 hover:bg-green-600">Course  3 </button>
+        <button  class="border-black border rounded-2xl px-8 py-1 hover:transition-all hover:scale-105 hover:duration-300 hover:bg-green-600">Course  4 </button>
+        <button class="border-black border rounded-2xl px-8 py-1 hover:transition-all hover:scale-105 hover:duration-300 hover:bg-green-600" >Course  5 </button>
+      </div>
+
+    </div>
+
+
+
+    <div class="md:col-span-4 col-span-12 ">
+      <img   class="" src="https://cdn.discordapp.com/attachments/1164187960053338263/1258477665812217886/batch.png?ex=668ccd68&is=668b7be8&hm=f937e02bd3caace4f70e965c483d6aec03048a98246824abd95b11a66a6b5258&" alt="">
+
+    </div>
+  </div>
+
+  <!--forth part end-->
+
+  <!--images-->
+  <div class="grid gap-96 mt-60 ml-24">
+    <img src="assets/Group 238901 (1).png"
+    alt="">
+    <img src="assets/51.png" alt="">
+    <img src="assets/54.png" alt="">
+    <img src="assets/56.png" alt="">
+    <img src="assets/57.png" alt="">
+  </div>
+
+<!--images end-->
+<!--fifth part start-->
+
+<div>
+  <div class="">
+  <div class="bg-white h-96 w-4/12 rounded-xl absolute ml-40 mt-32">
+    <img class="p-7 " src="assets/“.png" alt="">
+    <h3 class="ml-8 mt-8 text-xl font-semibold">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do</h3>
+    <p class="text-[#F9CCC7] mt-12 ml-8 font-bold">Daniel, IT Support Specialist at Central Community College and Google IT Support Certificate graduate</p>
+  </div>
+  <img class="mt-48 w-full relative -z-30" src="assets/brooke-cagle-g1Kr4Ozfoac-unsplash 2.png" alt="">
+
+
+  </div>
+</div>
+<!--fifth pat end-->
+
+
+<!-- last part start-->
+
+<div class="flex items-center justify-between ml-32 mr-32 mt-32">
+  <div class="grid gap-7">
+    <img src="assets/c4u full logo_2022 1.png" alt="">
+    <p >Level39 </p>
+    <p>logghjgjgj</p>
+    <p>vhvbjghjgj</p>
+    <p>gjjgjghjgk</p>
+    <p>gjgjgjgj</p>
+
+  </div>
+
+  <div class="grid gap-7 mb-16">
+    <p class="text-lg font-bold">Home</p>
+    <p>Collaborations</p>
+    <p>Statistics</p>
+<p>How It Works </p>
+<p>Testimonials </p>
+  </div>
+
+  <div class="grid gap-7 mb-16 ">
+    <p class="text-lg font-bold">About Us</p>
+    <p>Who We Are</p>
+    <p>statement</p>
+    
+     <p>Our Vision </p>
+    
+    <p>The  Team </p>
+    
+    
+
+  </div>
+
+
+  <div class="grid gap-7 mb-16">
+    <p class="text-lg font-bold" >Upskill</p>
+    <p>It Support </p>
+    <p>Project Managment </p>
+    <p>Data Analysts</p>
+    <p>Ux Design</p>
+
+    
+
+
+  </div>
+
+
+  <div class="grid gap-7 mb-20">
+    <p class="text-lg font-bold">Contact Us </p>
+    <p>Your message </p>
+    <p>Email</p>
+    <p>Phone number </p>
+    <p>Linkedin </p>
+
+  </div>
+</div>
+
+<script>
+  const htmlTag = document.getElementById("htmlTag");
+  document.getElementById("switch").addEventListener("click", function(){htmlTag.classList.toggle("dark");})
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
